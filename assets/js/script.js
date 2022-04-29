@@ -14,4 +14,11 @@ $(document).ready(function() {
         let audio = new Audio('/fleurescence-website/assets/images/packs/pack-source/glitchy-space-stuff-preview.wav');
         audio.play();
     });
+
+    $('#submitter-form').click(() => {
+        
+    });
+
+
+
 });
