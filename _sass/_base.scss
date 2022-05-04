@@ -1,3 +1,31 @@
+@import 'font.scss';
+
+body{
+    font-family: Galano !important; 
+}
+
+.general-landing{
+    .psst{
+        width: 82px;
+        margin-left: 556px;
+        margin-top: 246px;
+        margin-bottom: 70px;
+    }
+    .click-here{
+        width: 222px;
+        margin-left: 623px;
+    }
+    .circle{
+        max-width: 68px;
+        margin-left: 13px;
+        margin-top: 7px;
+    }
+    .guy{
+        margin-left: 750px;
+        margin-top: 32px;
+    }
+}
+
 .page-content{
     display: flex;
     justify-content: center;
@@ -37,8 +65,9 @@
     .title{
         font-size: 60px;
         margin-top: 62px;
-        font-weight: bold;
+        font-weight: 800;
         margin-left: -62px;
+        //font-family: Galano;
     }
     .arrow{
         width: 70px;
@@ -73,7 +102,7 @@
         .title{
             font-size: 60px;
             margin-top: 28px;
-            font-weight: bold;
+            font-weight: 800;
             margin-left: -95px;
         }
     }
@@ -139,7 +168,7 @@
         .title{
             font-size: 60px;
             margin-top: 28px;
-            font-weight: bold;
+            font-weight: 800;
             margin-left: -95px;
         }
     }
@@ -154,9 +183,9 @@
         padding-left: 32px;
         padding-bottom: 64px;
         .title{
-            font-size: 20px;
+            font-size: 23px;
             margin-left: 5px;
-            font-weight: 700;
+            font-weight: 600;
         }
         .pack-line{
             width: 269px;
@@ -167,9 +196,13 @@
             margin-top: 15px;
         }
         .text{
-            font-size: 13px;
-            line-height: 14.3px;
+            font-size: 15px;
+            line-height: 20px;
             margin-bottom: 20px;
+            font-weight: 300;
+            strong{
+                font-weight: 600;
+            }
         }
         .play-button{
             width: 44px;
