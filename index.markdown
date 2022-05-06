@@ -2,6 +2,7 @@
 layout: empty
 ---
 
+<div class="landing-container">
 <div class="general-landing">
 <img class="psst" src="/fleurescence-website/assets/images/landing/psst-icon.svg"/>
 <div class="d-flex">
@@ -11,4 +12,5 @@ layout: empty
 
 </div>
 <img class="guy" src="/fleurescence-website/assets/images/landing/rufus-pattern.png"/>
+</div>
 </div>
