@@ -11,7 +11,7 @@ body {
   .general-landing {
     .psst {
       width: 82px;
-      margin-top: 246px;
+      margin-top: 19%;
       margin-bottom: 70px;
     }
     .click-here {
@@ -37,7 +37,7 @@ body {
 
 .header-global {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 35px;
   .header-icon {
     img {
       width: 39px;
@@ -105,7 +105,7 @@ body {
   flex-direction: column;
   align-items: center;
   .packs-header {
-      width: 1015px;
+      width: 761px;
       margin-bottom: 45px;
     .doodle {
       width: 198px;
@@ -122,8 +122,8 @@ body {
     }
     .arrow {
       width: 70px;
-      margin-left: 5px;
-      margin-top: 120px;
+      margin-left: 15px;
+      margin-top: 100px;
     }
   }
 
@@ -139,7 +139,7 @@ body {
 .packs-content {
   display: flex;
   .pack-card {
-    margin-right: 132px;
+    margin-right: 75px;
     padding-bottom: 64px;
     .title {
       font-size: 23px;
@@ -153,12 +153,12 @@ body {
     .pack-image {
       margin-bottom: 15px;
       margin-top: 15px;
-      width: 446px;
+      width: 350px;
     }
     .text {
-      font-size: 15px;
-      max-width: 445px;
-      line-height: 20px;
+      font-size: 13px;
+      max-width: 350px;
+      line-height: 19px;
       margin-bottom: 20px;
       font-weight: 300;
       strong {
@@ -199,10 +199,10 @@ body {
 
     .music-icons {
       .icon {
-        margin-left: 22px;
-        margin-right: 22px;
+        margin-left: 18px;
+        margin-right: 18px;
         img {
-          max-height: 50px;
+          max-height: 44px;
         }
       }
     }
@@ -233,7 +233,7 @@ body {
 
     .image-title {
       width: 610px;
-      margin-top: 80px;
+      margin-top: 36px;
       margin-bottom: 36px;
     }
 
@@ -248,7 +248,6 @@ body {
       .video-arrow {
         max-width: 57px;
         z-index: -1;
-        transform: rotate(-25deg);
         margin-bottom: -35px;
       }
     }
@@ -258,9 +257,9 @@ body {
     }
     .text-under {
       margin-top: 20px;
-      margin-left: 52px;
+      margin-left: 17px;
       margin-bottom: 80px;
-      font-size: 13px;
+      font-size: 15px;
       .credits {
         font-size: 13px;
         font-weight: bold;
@@ -292,6 +291,9 @@ body {
       margin-left: -95px;
     }
   }
+  .pack-card{
+    margin-right: 350px;
+  }
 }
 
 .contacts {
@@ -313,6 +315,7 @@ body {
       font-size: 13px;
       position: relative;
       left: 262px;
+      top: 7px;
       max-width: 175px;
       text-align: center;
       a {
