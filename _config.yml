@@ -22,9 +22,7 @@ title: Fleurescence
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
  Preview and download royalty-free foley & sfx sample packs as well as instrument racks for Ableton Live. Get them all for FREE or pay what you want.
-baseurl: "/fleurescence-website" # the subpath of your site, e.g. /blog
 url: "https://www.fleurescence.net/" # the base hostname & protocol for your site, e.g. http://example.com
-domain: "www.fleurescence.net/"
 github_username:  fleurescence
 
 sass:
