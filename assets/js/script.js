@@ -42,4 +42,18 @@ $(document).ready(function() {
         }
     });
 
+    let pack4 =  $('#pack-play-4');
+    let audio4 = document.createElement("audio");
+    audio4.src = '/assets/images/packs/pack-source/website-preview.wav';
+    audio4.onended = () => pack4.css({"background-image" : "url(\"/assets/images/packs/play-button.svg\")"});
+    pack4.click(() => {
+        if(audio4.paused){
+            audio4.play();
+            pack4.css({"background-image" : "url(\"/assets/images/packs/pause-button.svg\")"});
+        } else {
+            audio4.pause();
+            pack4.css({"background-image" : "url(\"/assets/images/packs/play-button.svg\")"});
+        }
+    });
+
 });
